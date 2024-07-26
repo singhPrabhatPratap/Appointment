@@ -18,9 +18,9 @@ export default function SeeDoctor() {
     },[])
     // console.log(doctors)
   return (
-    <div className='flex flex-wrap gap-4 p-4'>
+    <div className='flex flex-wrap gap-4 p-4 bg-green-100'>
     {doctors.map((doc)=>(
-          <div className="w-[250px] rounded-md border">
+          <div className="w-[250px] rounded-md border bg-white">
           <img
             src={doc.docAvatar.url}
             alt="Laptop"

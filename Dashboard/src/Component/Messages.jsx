@@ -19,10 +19,10 @@ setMessage(result.data.message)
 //  console.log(message)
   return (
    <>
-    <section className="px-2 py-10 md:px-0">
+    <section className="px-2 py-10 md:px-0 bg-green-100">
       <div className="mx-auto max-w-4xl">
         {message.map((mes)=>(
-            <div className="md:flex md:items-center md:justify-center md:space-x-14 mt-4 shadow-lg p-4">
+            <div className="md:flex md:items-center md:justify-center bg-white md:space-x-14 mt-4 shadow-lg p-4">
             <div className="mt-10 md:mt-0">
               <blockquote>
                 <p className="text-xl text-black">

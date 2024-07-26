@@ -11,7 +11,7 @@ import {
 import Home from "./Pages/Home.jsx";
 import { Login } from "./Pages/Login.jsx";
 import Signup from "./Pages/Signup.jsx";
-import About from "./Pages/About.jsx";
+// import About from "./Pages/About.jsx"; 
 import Appointment from "./Pages/Appointment.jsx";
 
 const router = createBrowserRouter(
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/Userregister" element={<Signup />} />
-      <Route path="/about" element={<About />} />
+      {/* <Route path="/about" element={<About />} /> */}
       <Route path="/appointment" element={<Appointment/>} />
     </Route>
   )
